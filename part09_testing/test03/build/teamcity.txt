@@ -1,0 +1,54 @@
+
+##teamcity[testCount count='9' flowId='43164']
+
+##teamcity[testSuiteStarted name='Project Test Suite' flowId='43164']
+
+##teamcity[testSuiteStarted name='App\Tests\SimpleTest' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test03/tests/SimplesTest.php::\App\Tests\SimpleTest' flowId='43164']
+
+##teamcity[testStarted name='testOnePlusOneEqualsTwo' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test03/tests/SimplesTest.php::\App\Tests\SimpleTest::testOnePlusOneEqualsTwo' flowId='43164']
+
+##teamcity[testFinished name='testOnePlusOneEqualsTwo' duration='3' flowId='43164']
+
+##teamcity[testSuiteFinished name='App\Tests\SimpleTest' flowId='43164']
+
+##teamcity[testSuiteStarted name='App\Tests\Util\CalculatorTest' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test03/tests/Util/CalculatorTest.php::\App\Tests\Util\CalculatorTest' flowId='43164']
+
+##teamcity[testStarted name='testCanCreateObject' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test03/tests/Util/CalculatorTest.php::\App\Tests\Util\CalculatorTest::testCanCreateObject' flowId='43164']
+
+##teamcity[testFinished name='testCanCreateObject' duration='1' flowId='43164']
+
+##teamcity[testStarted name='testAddOneAndOne' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test03/tests/Util/CalculatorTest.php::\App\Tests\Util\CalculatorTest::testAddOneAndOne' flowId='43164']
+
+##teamcity[testFinished name='testAddOneAndOne' duration='0' flowId='43164']
+
+##teamcity[testSuiteStarted name='testAdditionsWithProvider' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test03/tests/Util/CalculatorTest.php::\App\Tests\Util\CalculatorTest::testAdditionsWithProvider' flowId='43164']
+
+##teamcity[testStarted name='testAdditionsWithProvider with data set #0' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test03/tests/Util/CalculatorTest.php::\App\Tests\Util\CalculatorTest::testAdditionsWithProvider with data set #0' flowId='43164']
+
+##teamcity[testFinished name='testAdditionsWithProvider with data set #0' duration='0' flowId='43164']
+
+##teamcity[testStarted name='testAdditionsWithProvider with data set #1' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test03/tests/Util/CalculatorTest.php::\App\Tests\Util\CalculatorTest::testAdditionsWithProvider with data set #1' flowId='43164']
+
+##teamcity[testFinished name='testAdditionsWithProvider with data set #1' duration='0' flowId='43164']
+
+##teamcity[testStarted name='testAdditionsWithProvider with data set #2' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test03/tests/Util/CalculatorTest.php::\App\Tests\Util\CalculatorTest::testAdditionsWithProvider with data set #2' flowId='43164']
+
+##teamcity[testFinished name='testAdditionsWithProvider with data set #2' duration='0' flowId='43164']
+
+##teamcity[testSuiteFinished name='testAdditionsWithProvider' flowId='43164']
+
+##teamcity[testStarted name='testDivideOneAndOne' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test03/tests/Util/CalculatorTest.php::\App\Tests\Util\CalculatorTest::testDivideOneAndOne' flowId='43164']
+
+##teamcity[testFinished name='testDivideOneAndOne' duration='0' flowId='43164']
+
+##teamcity[testStarted name='testDivideOneAndZero' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test03/tests/Util/CalculatorTest.php::\App\Tests\Util\CalculatorTest::testDivideOneAndZero' flowId='43164']
+
+##teamcity[testFinished name='testDivideOneAndZero' duration='1' flowId='43164']
+
+##teamcity[testStarted name='testInvalidCurrencyException' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test03/tests/Util/CalculatorTest.php::\App\Tests\Util\CalculatorTest::testInvalidCurrencyException' flowId='43164']
+
+##teamcity[testFinished name='testInvalidCurrencyException' duration='0' flowId='43164']
+
+##teamcity[testSuiteFinished name='App\Tests\Util\CalculatorTest' flowId='43164']
+
+##teamcity[testSuiteFinished name='Project Test Suite' flowId='43164']

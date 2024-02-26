@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tests>
+  <test className="App\Tests\SimpleTest" methodName="testOnePlusOneEqualsTwo" prettifiedClassName="Simple (App\Tests\Simple)" prettifiedMethodName="One plus one equals two" status="0" time="0.003495958" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="App\Tests\Util\CalculatorTest" methodName="testCanCreateObject" prettifiedClassName="Calculator (App\Tests\Util\Calculator)" prettifiedMethodName="Can create object" status="0" time="0.001433667" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="App\Tests\Util\CalculatorTest" methodName="testAddOneAndOne" prettifiedClassName="Calculator (App\Tests\Util\Calculator)" prettifiedMethodName="Add one and one" status="0" time="0.000219916" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="App\Tests\Util\CalculatorTest" methodName="testAdditionsWithProvider with data set #0" prettifiedClassName="Calculator (App\Tests\Util\Calculator)" prettifiedMethodName="Additions with provider with data set #0" status="0" time="4.2375E-5" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="App\Tests\Util\CalculatorTest" methodName="testAdditionsWithProvider with data set #1" prettifiedClassName="Calculator (App\Tests\Util\Calculator)" prettifiedMethodName="Additions with provider with data set #1" status="0" time="3.7125E-5" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="App\Tests\Util\CalculatorTest" methodName="testAdditionsWithProvider with data set #2" prettifiedClassName="Calculator (App\Tests\Util\Calculator)" prettifiedMethodName="Additions with provider with data set #2" status="0" time="2.725E-5" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="App\Tests\Util\CalculatorTest" methodName="testDivideOneAndOne" prettifiedClassName="Calculator (App\Tests\Util\Calculator)" prettifiedMethodName="Divide one and one" status="0" time="3.35E-5" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="App\Tests\Util\CalculatorTest" methodName="testDivideOneAndZero" prettifiedClassName="Calculator (App\Tests\Util\Calculator)" prettifiedMethodName="Divide one and zero" status="0" time="0.000702833" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="App\Tests\Util\CalculatorTest" methodName="testInvalidCurrencyException" prettifiedClassName="Calculator (App\Tests\Util\Calculator)" prettifiedMethodName="Invalid currency exception" status="0" time="0.0003655" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+</tests>

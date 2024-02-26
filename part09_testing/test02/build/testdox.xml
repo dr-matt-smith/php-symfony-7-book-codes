@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tests>
+  <test className="App\Tests\SimpleTest" methodName="testOnePlusOneEqualsTwo" prettifiedClassName="Simple (App\Tests\Simple)" prettifiedMethodName="One plus one equals two" status="0" time="0.004779542" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="App\Tests\Util\CalculatorTest" methodName="testCanCreateObject" prettifiedClassName="Calculator (App\Tests\Util\Calculator)" prettifiedMethodName="Can create object" status="0" time="0.00235425" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="App\Tests\Util\CalculatorTest" methodName="testAddOneAndOne" prettifiedClassName="Calculator (App\Tests\Util\Calculator)" prettifiedMethodName="Add one and one" status="0" time="0.000372292" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="App\Tests\Util\CalculatorTest" methodName="testAdditionsWithProvider with data set #0" prettifiedClassName="Calculator (App\Tests\Util\Calculator)" prettifiedMethodName="Additions with provider with data set #0" status="0" time="5.0708E-5" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="App\Tests\Util\CalculatorTest" methodName="testAdditionsWithProvider with data set #1" prettifiedClassName="Calculator (App\Tests\Util\Calculator)" prettifiedMethodName="Additions with provider with data set #1" status="0" time="5.8458E-5" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="App\Tests\Util\CalculatorTest" methodName="testAdditionsWithProvider with data set #2" prettifiedClassName="Calculator (App\Tests\Util\Calculator)" prettifiedMethodName="Additions with provider with data set #2" status="0" time="4.3291E-5" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="App\Tests\Util\CalculatorTest" methodName="testAdditionsWithProvider with data set #3" prettifiedClassName="Calculator (App\Tests\Util\Calculator)" prettifiedMethodName="Additions with provider with data set #3" status="3" time="0.001270083" size="-1" groups="default" exceptionLine="57" exceptionMessage="Failed asserting that 1 matches expected 2.">
+    <group name="default"/>
+  </test>
+</tests>

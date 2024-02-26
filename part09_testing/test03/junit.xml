@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="9" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.006358">
+    <testsuite name="Project Test Suite" tests="9" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.006358">
+      <testsuite name="App\Tests\SimpleTest" file="/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test03/tests/SimplesTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.003496">
+        <testcase name="testOnePlusOneEqualsTwo" class="App\Tests\SimpleTest" classname="App.Tests.SimpleTest" file="/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test03/tests/SimplesTest.php" line="9" assertions="1" time="0.003496"/>
+      </testsuite>
+      <testsuite name="App\Tests\Util\CalculatorTest" file="/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test03/tests/Util/CalculatorTest.php" tests="8" assertions="8" errors="0" warnings="0" failures="0" skipped="0" time="0.002862">
+        <testcase name="testCanCreateObject" class="App\Tests\Util\CalculatorTest" classname="App.Tests.Util.CalculatorTest" file="/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test03/tests/Util/CalculatorTest.php" line="10" assertions="1" time="0.001434"/>
+        <testcase name="testAddOneAndOne" class="App\Tests\Util\CalculatorTest" classname="App.Tests.Util.CalculatorTest" file="/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test03/tests/Util/CalculatorTest.php" line="21" assertions="1" time="0.000220"/>
+        <testsuite name="App\Tests\Util\CalculatorTest::testAdditionsWithProvider" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.000107">
+          <testcase name="testAdditionsWithProvider with data set #0" class="App\Tests\Util\CalculatorTest" classname="App.Tests.Util.CalculatorTest" file="/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test03/tests/Util/CalculatorTest.php" line="48" assertions="1" time="0.000042"/>
+          <testcase name="testAdditionsWithProvider with data set #1" class="App\Tests\Util\CalculatorTest" classname="App.Tests.Util.CalculatorTest" file="/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test03/tests/Util/CalculatorTest.php" line="48" assertions="1" time="0.000037"/>
+          <testcase name="testAdditionsWithProvider with data set #2" class="App\Tests\Util\CalculatorTest" classname="App.Tests.Util.CalculatorTest" file="/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test03/tests/Util/CalculatorTest.php" line="48" assertions="1" time="0.000027"/>
+        </testsuite>
+        <testcase name="testDivideOneAndOne" class="App\Tests\Util\CalculatorTest" classname="App.Tests.Util.CalculatorTest" file="/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test03/tests/Util/CalculatorTest.php" line="60" assertions="1" time="0.000034"/>
+        <testcase name="testDivideOneAndZero" class="App\Tests\Util\CalculatorTest" classname="App.Tests.Util.CalculatorTest" file="/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test03/tests/Util/CalculatorTest.php" line="75" assertions="1" time="0.000703"/>
+        <testcase name="testInvalidCurrencyException" class="App\Tests\Util\CalculatorTest" classname="App.Tests.Util.CalculatorTest" file="/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test03/tests/Util/CalculatorTest.php" line="93" assertions="1" time="0.000365"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

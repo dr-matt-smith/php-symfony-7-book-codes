@@ -1,0 +1,48 @@
+
+##teamcity[testCount count='7' flowId='41319']
+
+##teamcity[testSuiteStarted name='Project Test Suite' flowId='41319']
+
+##teamcity[testSuiteStarted name='App\Tests\SimpleTest' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test02/tests/SimplesTest.php::\App\Tests\SimpleTest' flowId='41319']
+
+##teamcity[testStarted name='testOnePlusOneEqualsTwo' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test02/tests/SimplesTest.php::\App\Tests\SimpleTest::testOnePlusOneEqualsTwo' flowId='41319']
+
+##teamcity[testFinished name='testOnePlusOneEqualsTwo' duration='5' flowId='41319']
+
+##teamcity[testSuiteFinished name='App\Tests\SimpleTest' flowId='41319']
+
+##teamcity[testSuiteStarted name='App\Tests\Util\CalculatorTest' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test02/tests/Util/CalculatorTest.php::\App\Tests\Util\CalculatorTest' flowId='41319']
+
+##teamcity[testStarted name='testCanCreateObject' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test02/tests/Util/CalculatorTest.php::\App\Tests\Util\CalculatorTest::testCanCreateObject' flowId='41319']
+
+##teamcity[testFinished name='testCanCreateObject' duration='2' flowId='41319']
+
+##teamcity[testStarted name='testAddOneAndOne' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test02/tests/Util/CalculatorTest.php::\App\Tests\Util\CalculatorTest::testAddOneAndOne' flowId='41319']
+
+##teamcity[testFinished name='testAddOneAndOne' duration='0' flowId='41319']
+
+##teamcity[testSuiteStarted name='testAdditionsWithProvider' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test02/tests/Util/CalculatorTest.php::\App\Tests\Util\CalculatorTest::testAdditionsWithProvider' flowId='41319']
+
+##teamcity[testStarted name='testAdditionsWithProvider with data set #0' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test02/tests/Util/CalculatorTest.php::\App\Tests\Util\CalculatorTest::testAdditionsWithProvider with data set #0' flowId='41319']
+
+##teamcity[testFinished name='testAdditionsWithProvider with data set #0' duration='0' flowId='41319']
+
+##teamcity[testStarted name='testAdditionsWithProvider with data set #1' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test02/tests/Util/CalculatorTest.php::\App\Tests\Util\CalculatorTest::testAdditionsWithProvider with data set #1' flowId='41319']
+
+##teamcity[testFinished name='testAdditionsWithProvider with data set #1' duration='0' flowId='41319']
+
+##teamcity[testStarted name='testAdditionsWithProvider with data set #2' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test02/tests/Util/CalculatorTest.php::\App\Tests\Util\CalculatorTest::testAdditionsWithProvider with data set #2' flowId='41319']
+
+##teamcity[testFinished name='testAdditionsWithProvider with data set #2' duration='0' flowId='41319']
+
+##teamcity[testStarted name='testAdditionsWithProvider with data set #3' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test02/tests/Util/CalculatorTest.php::\App\Tests\Util\CalculatorTest::testAdditionsWithProvider with data set #3' flowId='41319']
+
+##teamcity[testFailed name='testAdditionsWithProvider with data set #3' message='Failed asserting that 1 matches expected 2.' details=' /Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test02/tests/Util/CalculatorTest.php:57|n /Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test02/vendor/phpunit/phpunit/phpunit:107|n ' duration='1' type='comparisonFailure' actual='1' expected='2' flowId='41319']
+
+##teamcity[testFinished name='testAdditionsWithProvider with data set #3' duration='1' flowId='41319']
+
+##teamcity[testSuiteFinished name='testAdditionsWithProvider' flowId='41319']
+
+##teamcity[testSuiteFinished name='App\Tests\Util\CalculatorTest' flowId='41319']
+
+##teamcity[testSuiteFinished name='Project Test Suite' flowId='41319']

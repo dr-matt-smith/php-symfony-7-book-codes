@@ -1,0 +1,13 @@
+Simple (App\Tests\Simple)
+ [x] One plus one equals two
+
+Calculator (App\Tests\Util\Calculator)
+ [x] Can create object
+ [x] Add one and one
+ [x] Additions with provider with data set #0
+ [x] Additions with provider with data set #1
+ [x] Additions with provider with data set #2
+ [x] Divide one and one
+ [x] Divide one and zero
+ [x] Invalid currency exception
+

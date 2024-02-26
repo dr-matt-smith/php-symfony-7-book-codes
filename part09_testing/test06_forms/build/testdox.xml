@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tests>
+  <test className="App\Tests\CalculatorWebTest" methodName="testCanVisitCalculatorPage" prettifiedClassName="Calculator Web (App\Tests\CalculatorWeb)" prettifiedMethodName="Can visit calculator page" status="0" time="6.910338375" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="App\Tests\CalculatorWebTest" methodName="testFormReferenceNotNull" prettifiedClassName="Calculator Web (App\Tests\CalculatorWeb)" prettifiedMethodName="Form reference not null" status="0" time="0.187873541" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="App\Tests\CalculatorWebTest" methodName="testVisitResultPageAfterFormSubmission" prettifiedClassName="Calculator Web (App\Tests\CalculatorWeb)" prettifiedMethodName="Visit result page after form submission" status="0" time="0.248748125" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="App\Tests\CalculatorWebTest" methodName="testSubmitOneAddTwoAndValuesConfirmed" prettifiedClassName="Calculator Web (App\Tests\CalculatorWeb)" prettifiedMethodName="Submit one add two and values confirmed" status="0" time="0.025091333" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="App\Tests\CalculatorWebTest" methodName="testSubmitValuesAndCorrectResult with data set #0" prettifiedClassName="Calculator Web (App\Tests\CalculatorWeb)" prettifiedMethodName="Submit values and correct result with data set #0" status="0" time="0.012345167" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="App\Tests\CalculatorWebTest" methodName="testSubmitValuesAndCorrectResult with data set #1" prettifiedClassName="Calculator Web (App\Tests\CalculatorWeb)" prettifiedMethodName="Submit values and correct result with data set #1" status="0" time="0.012600459" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="App\Tests\CalculatorWebTest" methodName="testSubmitValuesAndCorrectResult with data set #2" prettifiedClassName="Calculator Web (App\Tests\CalculatorWeb)" prettifiedMethodName="Submit values and correct result with data set #2" status="0" time="0.015468916" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="App\Tests\CalculatorWebTest" methodName="testSubmitValuesAndCorrectResult with data set #3" prettifiedClassName="Calculator Web (App\Tests\CalculatorWeb)" prettifiedMethodName="Submit values and correct result with data set #3" status="0" time="0.012374834" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="App\Tests\CalculatorWebTest" methodName="testSubmitValuesAndCorrectResult with data set #4" prettifiedClassName="Calculator Web (App\Tests\CalculatorWeb)" prettifiedMethodName="Submit values and correct result with data set #4" status="0" time="0.013049" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="App\Tests\CalculatorWebTest" methodName="testSelectSetValuesSubmitInOneGo" prettifiedClassName="Calculator Web (App\Tests\CalculatorWeb)" prettifiedMethodName="Select set values submit in one go" status="4" time="0.411898625" size="-1" groups="default" exceptionLine="176" exceptionMessage="The current node list is empty.">
+    <group name="default"/>
+  </test>
+</tests>

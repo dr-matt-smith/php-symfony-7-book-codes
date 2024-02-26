@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="7" assertions="7" errors="0" warnings="0" failures="1" skipped="0" time="0.008929">
+    <testsuite name="Project Test Suite" tests="7" assertions="7" errors="0" warnings="0" failures="1" skipped="0" time="0.008929">
+      <testsuite name="App\Tests\SimpleTest" file="/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test02/tests/SimplesTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.004780">
+        <testcase name="testOnePlusOneEqualsTwo" class="App\Tests\SimpleTest" classname="App.Tests.SimpleTest" file="/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test02/tests/SimplesTest.php" line="9" assertions="1" time="0.004780"/>
+      </testsuite>
+      <testsuite name="App\Tests\Util\CalculatorTest" file="/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test02/tests/Util/CalculatorTest.php" tests="6" assertions="6" errors="0" warnings="0" failures="1" skipped="0" time="0.004149">
+        <testcase name="testCanCreateObject" class="App\Tests\Util\CalculatorTest" classname="App.Tests.Util.CalculatorTest" file="/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test02/tests/Util/CalculatorTest.php" line="9" assertions="1" time="0.002354"/>
+        <testcase name="testAddOneAndOne" class="App\Tests\Util\CalculatorTest" classname="App.Tests.Util.CalculatorTest" file="/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test02/tests/Util/CalculatorTest.php" line="20" assertions="1" time="0.000372"/>
+        <testsuite name="App\Tests\Util\CalculatorTest::testAdditionsWithProvider" tests="4" assertions="4" errors="0" warnings="0" failures="1" skipped="0" time="0.001423">
+          <testcase name="testAdditionsWithProvider with data set #0" class="App\Tests\Util\CalculatorTest" classname="App.Tests.Util.CalculatorTest" file="/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test02/tests/Util/CalculatorTest.php" line="48" assertions="1" time="0.000051"/>
+          <testcase name="testAdditionsWithProvider with data set #1" class="App\Tests\Util\CalculatorTest" classname="App.Tests.Util.CalculatorTest" file="/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test02/tests/Util/CalculatorTest.php" line="48" assertions="1" time="0.000058"/>
+          <testcase name="testAdditionsWithProvider with data set #2" class="App\Tests\Util\CalculatorTest" classname="App.Tests.Util.CalculatorTest" file="/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test02/tests/Util/CalculatorTest.php" line="48" assertions="1" time="0.000043"/>
+          <testcase name="testAdditionsWithProvider with data set #3" class="App\Tests\Util\CalculatorTest" classname="App.Tests.Util.CalculatorTest" file="/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test02/tests/Util/CalculatorTest.php" line="48" assertions="1" time="0.001270">
+            <failure type="PHPUnit\Framework\ExpectationFailedException">App\Tests\Util\CalculatorTest::testAdditionsWithProvider with data set #3 (0, 1, 2)
+Failed asserting that 1 matches expected 2.
+
+/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test02/tests/Util/CalculatorTest.php:57
+/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test02/vendor/phpunit/phpunit/phpunit:107</failure>
+          </testcase>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

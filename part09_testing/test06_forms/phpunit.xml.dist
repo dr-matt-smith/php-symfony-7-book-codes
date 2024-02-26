@@ -35,4 +35,9 @@
 
     <extensions>
     </extensions>
+
+    <logging>
+        <junit outputFile="junit.xml"/>
+        <teamcity outputFile="./build/teamcity.txt"/> <testdoxHtml outputFile="./build/testdox.html"/> <testdoxText outputFile="./build/testdox.txt"/> <testdoxXml outputFile="./build/testdox.xml"/> <text outputFile="./build/logfile.txt"/>
+    </logging>
 </phpunit>

@@ -1,35 +1,33 @@
 {% extends 'base.html.twig' %}
 
-    {% block body %}
-        <h1>Calculator home</h1>
+{% block body %}
+    <h1>Calculator home</h1>
 
-        <form method="POST">
-            <p>
-                Num 1:
-                <input type="text" name="num1" value="1">
-            </p>
-            <p>
-                Num 2:
-                <input type="text" name="num2" value="1">
-            </p>
-            <p>
-                Operation:
-                <br>
-                ADD
-                <input type="radio" name="operator" value="add" checked>
-                <br>
-                SUBTRACT
-                <input type="radio" name="operator" value="subtract">
-                <br>
-                DIVIDE
-                <input type="radio" name="operator" value="divide">
-            </p>
+    <form method="POST">
+        <p>
+            Num 1:
+            <input type="text" name="num1" value="1">
+        </p>
+        <p>
+            Num 2:
+            <input type="text" name="num2" value="1">
+        </p>
+        <p>
+            Operation:
+            <br>
+            ADD
+            <input type="radio" name="operator" value="add" checked>
+            <br>
+            SUBTRACT
+            <input type="radio" name="operator" value="subtract">
+            <br>
+            DIVIDE
+            <input type="radio" name="operator" value="divide">
+        </p>
 
-            <p>
-                <input type="submit" name="calc_submit">
-            </p>
-        </form>
+        <p>
+            <input type="submit" name="calc_submit">
+        </p>
+    </form>
 
-        {{ dump(app.request) }}
-
-    {% endblock %}
+{% endblock %}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="10" assertions="28" errors="1" warnings="0" failures="0" skipped="0" time="7.849788">
+    <testsuite name="Project Test Suite" tests="10" assertions="28" errors="1" warnings="0" failures="0" skipped="0" time="7.849788">
+      <testsuite name="App\Tests\CalculatorWebTest" file="/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test06_forms/tests/CalculatorWebTest.php" tests="10" assertions="28" errors="1" warnings="0" failures="0" skipped="0" time="7.849788">
+        <testcase name="testCanVisitCalculatorPage" class="App\Tests\CalculatorWebTest" classname="App.Tests.CalculatorWebTest" file="/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test06_forms/tests/CalculatorWebTest.php" line="10" assertions="1" time="6.910338"/>
+        <testcase name="testFormReferenceNotNull" class="App\Tests\CalculatorWebTest" classname="App.Tests.CalculatorWebTest" file="/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test06_forms/tests/CalculatorWebTest.php" line="22" assertions="1" time="0.187874"/>
+        <testcase name="testVisitResultPageAfterFormSubmission" class="App\Tests\CalculatorWebTest" classname="App.Tests.CalculatorWebTest" file="/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test06_forms/tests/CalculatorWebTest.php" line="39" assertions="3" time="0.248748"/>
+        <testcase name="testSubmitOneAddTwoAndValuesConfirmed" class="App\Tests\CalculatorWebTest" classname="App.Tests.CalculatorWebTest" file="/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test06_forms/tests/CalculatorWebTest.php" line="64" assertions="3" time="0.025091"/>
+        <testsuite name="App\Tests\CalculatorWebTest::testSubmitValuesAndCorrectResult" tests="5" assertions="20" errors="0" warnings="0" failures="0" skipped="0" time="0.065838">
+          <testcase name="testSubmitValuesAndCorrectResult with data set #0" class="App\Tests\CalculatorWebTest" classname="App.Tests.CalculatorWebTest" file="/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test06_forms/tests/CalculatorWebTest.php" line="107" assertions="4" time="0.012345"/>
+          <testcase name="testSubmitValuesAndCorrectResult with data set #1" class="App\Tests\CalculatorWebTest" classname="App.Tests.CalculatorWebTest" file="/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test06_forms/tests/CalculatorWebTest.php" line="107" assertions="4" time="0.012600"/>
+          <testcase name="testSubmitValuesAndCorrectResult with data set #2" class="App\Tests\CalculatorWebTest" classname="App.Tests.CalculatorWebTest" file="/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test06_forms/tests/CalculatorWebTest.php" line="107" assertions="4" time="0.015469"/>
+          <testcase name="testSubmitValuesAndCorrectResult with data set #3" class="App\Tests\CalculatorWebTest" classname="App.Tests.CalculatorWebTest" file="/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test06_forms/tests/CalculatorWebTest.php" line="107" assertions="4" time="0.012375"/>
+          <testcase name="testSubmitValuesAndCorrectResult with data set #4" class="App\Tests\CalculatorWebTest" classname="App.Tests.CalculatorWebTest" file="/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test06_forms/tests/CalculatorWebTest.php" line="107" assertions="4" time="0.013049"/>
+        </testsuite>
+        <testcase name="testSelectSetValuesSubmitInOneGo" class="App\Tests\CalculatorWebTest" classname="App.Tests.CalculatorWebTest" file="/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test06_forms/tests/CalculatorWebTest.php" line="160" assertions="0" time="0.411899">
+          <error type="InvalidArgumentException">App\Tests\CalculatorWebTest::testSelectSetValuesSubmitInOneGo
+InvalidArgumentException: The current node list is empty.
+
+/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test06_forms/vendor/symfony/dom-crawler/Crawler.php:846
+/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test06_forms/tests/CalculatorWebTest.php:176
+/Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test06_forms/vendor/phpunit/phpunit/phpunit:107</error>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

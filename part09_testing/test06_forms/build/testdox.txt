@@ -1,0 +1,12 @@
+Calculator Web (App\Tests\CalculatorWeb)
+ [x] Can visit calculator page
+ [x] Form reference not null
+ [x] Visit result page after form submission
+ [x] Submit one add two and values confirmed
+ [x] Submit values and correct result with data set #0
+ [x] Submit values and correct result with data set #1
+ [x] Submit values and correct result with data set #2
+ [x] Submit values and correct result with data set #3
+ [x] Submit values and correct result with data set #4
+ [ ] Select set values submit in one go
+

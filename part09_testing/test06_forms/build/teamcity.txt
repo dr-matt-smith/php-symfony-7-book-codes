@@ -1,0 +1,56 @@
+
+##teamcity[testCount count='10' flowId='64027']
+
+##teamcity[testSuiteStarted name='Project Test Suite' flowId='64027']
+
+##teamcity[testSuiteStarted name='App\Tests\CalculatorWebTest' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test06_forms/tests/CalculatorWebTest.php::\App\Tests\CalculatorWebTest' flowId='64027']
+
+##teamcity[testStarted name='testCanVisitCalculatorPage' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test06_forms/tests/CalculatorWebTest.php::\App\Tests\CalculatorWebTest::testCanVisitCalculatorPage' flowId='64027']
+
+##teamcity[testFinished name='testCanVisitCalculatorPage' duration='6910' flowId='64027']
+
+##teamcity[testStarted name='testFormReferenceNotNull' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test06_forms/tests/CalculatorWebTest.php::\App\Tests\CalculatorWebTest::testFormReferenceNotNull' flowId='64027']
+
+##teamcity[testFinished name='testFormReferenceNotNull' duration='188' flowId='64027']
+
+##teamcity[testStarted name='testVisitResultPageAfterFormSubmission' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test06_forms/tests/CalculatorWebTest.php::\App\Tests\CalculatorWebTest::testVisitResultPageAfterFormSubmission' flowId='64027']
+
+##teamcity[testFinished name='testVisitResultPageAfterFormSubmission' duration='249' flowId='64027']
+
+##teamcity[testStarted name='testSubmitOneAddTwoAndValuesConfirmed' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test06_forms/tests/CalculatorWebTest.php::\App\Tests\CalculatorWebTest::testSubmitOneAddTwoAndValuesConfirmed' flowId='64027']
+
+##teamcity[testFinished name='testSubmitOneAddTwoAndValuesConfirmed' duration='25' flowId='64027']
+
+##teamcity[testSuiteStarted name='testSubmitValuesAndCorrectResult' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test06_forms/tests/CalculatorWebTest.php::\App\Tests\CalculatorWebTest::testSubmitValuesAndCorrectResult' flowId='64027']
+
+##teamcity[testStarted name='testSubmitValuesAndCorrectResult with data set #0' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test06_forms/tests/CalculatorWebTest.php::\App\Tests\CalculatorWebTest::testSubmitValuesAndCorrectResult with data set #0' flowId='64027']
+
+##teamcity[testFinished name='testSubmitValuesAndCorrectResult with data set #0' duration='12' flowId='64027']
+
+##teamcity[testStarted name='testSubmitValuesAndCorrectResult with data set #1' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test06_forms/tests/CalculatorWebTest.php::\App\Tests\CalculatorWebTest::testSubmitValuesAndCorrectResult with data set #1' flowId='64027']
+
+##teamcity[testFinished name='testSubmitValuesAndCorrectResult with data set #1' duration='13' flowId='64027']
+
+##teamcity[testStarted name='testSubmitValuesAndCorrectResult with data set #2' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test06_forms/tests/CalculatorWebTest.php::\App\Tests\CalculatorWebTest::testSubmitValuesAndCorrectResult with data set #2' flowId='64027']
+
+##teamcity[testFinished name='testSubmitValuesAndCorrectResult with data set #2' duration='15' flowId='64027']
+
+##teamcity[testStarted name='testSubmitValuesAndCorrectResult with data set #3' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test06_forms/tests/CalculatorWebTest.php::\App\Tests\CalculatorWebTest::testSubmitValuesAndCorrectResult with data set #3' flowId='64027']
+
+##teamcity[testFinished name='testSubmitValuesAndCorrectResult with data set #3' duration='12' flowId='64027']
+
+##teamcity[testStarted name='testSubmitValuesAndCorrectResult with data set #4' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test06_forms/tests/CalculatorWebTest.php::\App\Tests\CalculatorWebTest::testSubmitValuesAndCorrectResult with data set #4' flowId='64027']
+
+##teamcity[testFinished name='testSubmitValuesAndCorrectResult with data set #4' duration='13' flowId='64027']
+
+##teamcity[testSuiteFinished name='testSubmitValuesAndCorrectResult' flowId='64027']
+
+##teamcity[testStarted name='testSelectSetValuesSubmitInOneGo' locationHint='php_qn:///Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test06_forms/tests/CalculatorWebTest.php::\App\Tests\CalculatorWebTest::testSelectSetValuesSubmitInOneGo' flowId='64027']
+
+##teamcity[testFailed name='testSelectSetValuesSubmitInOneGo' message='InvalidArgumentException : The current node list is empty.' details=' /Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test06_forms/vendor/symfony/dom-crawler/Crawler.php:846|n /Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test06_forms/tests/CalculatorWebTest.php:176|n /Users/Computer/Documents/github/php-symfony-7-book-codes/part09_testing/test06_forms/vendor/phpunit/phpunit/phpunit:107|n ' duration='412' flowId='64027']
+
+##teamcity[testFinished name='testSelectSetValuesSubmitInOneGo' duration='412' flowId='64027']
+
+##teamcity[testSuiteFinished name='App\Tests\CalculatorWebTest' flowId='64027']
+
+##teamcity[testSuiteFinished name='Project Test Suite' flowId='64027']
