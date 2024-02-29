@@ -98,7 +98,7 @@ class LecturerControllerTest extends WebTestCase
         $fixture = new Lecturer();
         $fixture->setName('Value');
 
-        $this->manager->remove($fixture);
+        $this->manager->persist($fixture);
         $this->manager->flush();
 
         $this->client->request('GET', sprintf('%s%s', $this->path, $fixture->getId()));
